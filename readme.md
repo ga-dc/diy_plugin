@@ -11,6 +11,7 @@ We've setup the page, linked to the js and css, and started on `greenify`.
   $ open index.html
   ```
 2. Review the code.  What's happening here?
+  - Note the file naming convention.
   - Hey!  That's not green!?!  
   - Sure enough.  You caught us.
 3. Now read the docs listed above.
