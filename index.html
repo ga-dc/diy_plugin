@@ -4,11 +4,23 @@
     <link rel='stylesheet' type='text/css' href='css/styles.css'>
   </head>
   <body>
-    <a href='#'>Link One</a>
-    <a href='#'>Link Two</a>
+    <div>
+      What color is this text?
+    </div>
+    <ul>
+      <li>
+        <a href='https://google.com' target="_blank">Google</a>
+      </li>
+      <li>
+        <a href='about.html'>About</a>
+      </li>
+    </ul>
+
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
     <script type='text/javascript'>
-
+      $( "div" ).greenify({
+          color: "orange"
+      });
     </script>
   </body>
 </html>
